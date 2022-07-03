@@ -1,0 +1,26 @@
+{
+  "name": "elec-theme",
+  "version": "1.0.0",
+  "description": "electro ecommerce theme",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/main.css -w"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "BOOTSTRAP",
+    "OWL",
+    "CAROUSEL",
+    "FONT",
+    "AWESOME",
+    "GOOGLE",
+    "FONT"
+  ],
+  "author": "abdulkadir cebi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
