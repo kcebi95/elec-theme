@@ -1,17 +1,9 @@
 @import "../utilities/variables";
-@import "../utilities/mixin";
+@import "../vendors/responsive";
 *,
 :after,
 :before {
   box-sizing: border-box !important;
-}
-
-// General Settings
-
-.container {
-  @media (min-width: 900px) {
-    max-width: 1170px !important;
-  }
 }
 
 .header {

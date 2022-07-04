@@ -1,8 +1,14 @@
+// Custom
 @import "base/reset";
-
+// Layout
 @import "layout/header";
+@import "layout/footer";
 
+// Pages
 @import "pages/home";
+// Utilities
 
 @import "utilities/mixin";
 @import "utilities/variables";
+// Vendors
+@import "vendors/responsive";
