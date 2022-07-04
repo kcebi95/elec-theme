@@ -1,1 +1,11 @@
-
+@import "../utilities/variables";
+html {
+  @media only screen and (max-width) {
+    overflow: hidden;
+  }
+}
+.header {
+  @media only screen and (max-width: 991px) {
+    display: none !important;
+  }
+}

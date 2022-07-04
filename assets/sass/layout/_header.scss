@@ -1,10 +1,6 @@
 @import "../utilities/variables";
+@import "../utilities/mixin";
 @import "../vendors/responsive";
-*,
-:after,
-:before {
-  box-sizing: border-box !important;
-}
 
 .header {
   width: 100%;
